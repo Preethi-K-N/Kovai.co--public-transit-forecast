@@ -60,4 +60,17 @@ Understanding how many people use public transport—and when—is vital for cit
 ---
 
 ## 📁 **Project Structure**
+```
+public_transit_forecast/
+│
+├── public_transit_forecast.ipynb # Main notebook (all code & workflow)
+├── Daily_Public_Transport_Passenger_Journeys_by_Service_Type_20250603.csv
+├── Technical_Report-1.txt # Automated technical report
+│
+├── 01_total_passengers_trend.jpg # Total passenger trend plot
+├── 02_individual_services.jpg # Service-wise breakdown plot
+├── 03_correlation_heatmap.jpg # Correlation matrix visual
+├── 04_day_of_week_pattern.jpg # Weekday vs weekend usage
+├── 05_forecast_7days.jpg # Forecast & uncertainty band plot
 
+```
