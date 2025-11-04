@@ -1,0 +1,52 @@
+
+PUBLIC TRANSPORT FORECAST - TECHNICAL REPORT
+================================================================================
+
+PROJECT SUMMARY
+  • Dataset: 2019-07-01 to 2024-09-29 (1918 days)
+  • Services Analyzed: 6
+  • Forecast Period: Next 7 days
+  • Model Used: Random Forest Regression
+
+DATA QUALITY
+  • Missing Values: 0 (handled)
+  • Outliers: 70 data points > 2σ
+  • Date Range Coverage: Complete daily observations
+
+KEY FINDINGS
+  1. Rapid Route dominates (39% of traffic)
+  2. Weekday traffic 142% higher than weekends
+  3. 106% variation in School (unpredictable)
+  4. 46% variation in Light Rail (predictable)
+
+MODEL PERFORMANCE
+  Cross-Validation Results:
+    • Local Route: MAPE 30456686917.7% (±0 passengers)
+    • Light Rail: MAPE 1002235777605.7% (±0 passengers)
+    • Peak Service: MAPE 15648727051532.6% (±0 passengers)
+    • Rapid Route: MAPE 50304644115.4% (±0 passengers)
+    • School: MAPE 48177513525636.5% (±0 passengers)
+    • Other: MAPE 1516644560314.3% (±0 passengers)
+
+FORECAST RESULTS
+  Next Week Average: 668 passengers/day
+  Historical Average: 32260 passengers/day
+  Expected Change: -97.9%
+
+RECOMMENDATIONS
+  1. Peak days: Plan for ±56% variation
+  2. Rapid Route: Invest here (highest volume)
+  3. Weekday staffing: Increase by 142%
+  4. Maintenance: Schedule on low-traffic days (Sundays)
+
+LIMITATIONS
+  • Cannot predict strikes/protests
+  • Weather not included (affects Peak Service)
+  • Holidays assumed similar to regular days
+  • New routes/service changes not factored
+
+CONFIDENCE LEVELS
+  • 68% confidence: ±18148 passengers
+  • 95% confidence: ±36295 passengers
+
+Report Generated: 04-Nov-2025 10:55:55
