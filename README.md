@@ -61,16 +61,23 @@ Understanding how many people use public transport—and when—is vital for cit
 
 ## 📁 **Project Structure**
 ```
-public_transit_forecast/
+Kovai.co--public-transit-forecast/
 │
-├── public_transit_forecast.ipynb # Main notebook (all code & workflow)
-├── Daily_Public_Transport_Passenger_Journeys_by_Service_Type_20250603.csv
-├── Technical_Report-1.txt # Automated technical report
+├── Dataset/
+│   └── Daily_Public_Transport_Passenger_Journeys_by_Service_Type_20250603.csv   # Main dataset file
 │
-├── 01_total_passengers_trend.jpg # Total passenger trend plot
-├── 02_individual_services.jpg # Service-wise breakdown plot
-├── 03_correlation_heatmap.jpg # Correlation matrix visual
-├── 04_day_of_week_pattern.jpg # Weekday vs weekend usage
-├── 05_forecast_7days.jpg # Forecast & uncertainty band plot
+├── Technical_report/
+│   └── Technical_Report.txt                      # Technical summary and findings
+│
+├── forecast plots/
+│   ├── 01_total_passengers_trend.png             # Total passenger trend (5-year)
+│   ├── 02_individual_services.png                # Service-wise passenger trend
+│   ├── 03_correlation_heatmap.png                # Service correlation heatmap
+│   ├── 04_day_of_week_pattern.png                # Weekday vs weekend pattern
+│   └── 05_forecast_7days.png                     # 7-day passenger forecast
+│
+├── 7_day_forecast.xls                            # Forecast results (Excel)
+├── README.md                                     # This file (project overview & instructions)
+├── public_transit_forecast.ipynb                 # Main Jupyter notebook (full workflow & code)
 
 ```
