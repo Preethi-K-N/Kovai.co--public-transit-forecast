@@ -1,5 +1,8 @@
 # 🚍 Public Transport Passenger Forecast 📈
 
+<img width="1024" height="1024" alt="Gemini_Generated_Image_6vebvu6vebvu6veb" src="https://github.com/user-attachments/assets/bfa5a319-0450-422a-b505-e934f213b8c3" />
+
+
 An interactive analytics and forecasting solution powered by machine learning, providing actionable insights into public transit demand patterns and future predictions. This project uses a **Random Forest Regression** approach, handling time-series travel data and delivering professional-grade automated reports.
 
 ---
